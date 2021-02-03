@@ -1,11 +1,12 @@
 import { Button } from "./Button";
+import Video from "../videos/video-2.mp4"
 import "../App.css";
 import "./Hero.css";
 
 function Hero() {
   return (
     <div className="hero--container">
-      <video src="../videos/video-2.mp4" autoPlay loop muted />
+      <video src={Video} autoPlay loop muted />
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="hero--btns">
