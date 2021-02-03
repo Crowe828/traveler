@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import "./Button.css";
 
-const STYLES = ["btn__primary", "btn__outline"];
-const SIZES = ["btn__medium", "btn__large"];
+const STYLES = ["btn--primary", "btn--outline"];
+const SIZES = ["btn--medium", "btn--large"];
 
 export const Button = ({
   children,
