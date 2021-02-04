@@ -9,9 +9,7 @@ function Footer() {
         <p className="footer__subscription__heading">
           Join Traveler to receive vacation deals and exlusive offers
         </p>
-        <p className="footer__subscription__text">
-          Unsubscribe at any time.
-        </p>
+        <p className="footer__subscription__text">Unsubscribe at any time.</p>
         <div className="input__areas">
           <form>
             <input
@@ -24,6 +22,7 @@ function Footer() {
           </form>
         </div>
       </section>
+      {/* Links */}
       <div className="footer__links">
         <div className="footer__link__wrapper">
           <div className="footer__link__items">
@@ -68,6 +67,7 @@ function Footer() {
             </Link>
           </div>
           <small className="website__rights">Taveler @ 2021</small>
+          {/* Social media icons */}
           <div className="social__icons">
             <Link
               className="social__icon__link facebook"

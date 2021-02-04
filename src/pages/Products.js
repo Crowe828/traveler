@@ -1,5 +1,6 @@
 import "../App.css";
 
+// Example page
 function Products() {
   return <h1 className="products">PRODUCTS</h1>;
 }

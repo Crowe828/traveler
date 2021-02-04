@@ -13,6 +13,7 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
+            {/* Different locations that clients have visited */}
             <CardItem
               src={Img1}
               text="Explore the most beautiful mountains in the world"
