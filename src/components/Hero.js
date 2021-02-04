@@ -1,5 +1,5 @@
 import { Button } from "./Button";
-import Video from "../videos/video-2.mp4"
+import Video from "../videos/video-1.mp4";
 import "../App.css";
 import "./Hero.css";
 
@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className="hero--container">
       <video src={Video} autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
+      <h1>DESTINY IS CALLING</h1>
       <p>What are you waiting for?</p>
       <div className="hero--btns">
         <Button
@@ -15,7 +15,7 @@ function Hero() {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          GET STARTED
+          JOIN TODAY
         </Button>
         <Button
           className="btns"

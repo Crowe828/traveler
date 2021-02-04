@@ -7,10 +7,10 @@ function Footer() {
     <div className="footer__container">
       <section className="footer__subscription">
         <p className="footer__subscription__heading">
-          Join the Adventure newsletter to receive our best vacation deals
+          Join Traveler to receive vacation deals and exlusive offers
         </p>
         <p className="footer__subscription__text">
-          You can unsubscribe at any time.
+          Unsubscribe at any time.
         </p>
         <div className="input__areas">
           <form>
@@ -64,10 +64,10 @@ function Footer() {
         <div className="social__media__wrap">
           <div className="footer__logo">
             <Link to="/" className="social__logo">
-              TRVL <i className="fab fa-typo3" />
+              Traveler <i className="fab fa-typo3" />
             </Link>
           </div>
-          <small className="website__rights">TRVL @ 2021</small>
+          <small className="website__rights">Taveler @ 2021</small>
           <div className="social__icons">
             <Link
               className="social__icon__link facebook"

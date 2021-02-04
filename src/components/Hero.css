@@ -19,46 +19,46 @@ video {
 }
 
 .hero--container > h1 {
-  color: #fff;
+  color: rgb(225, 225, 225);
   font-size: 100px;
   margin-top: -100px;
 }
 
 .hero--container > P {
   margin-top: 8px;
-  color: #fff;
+  color: rgb(225, 225, 225);
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
 .hero--btns {
-  margin-top: 32px;
+  margin-top: 34px;
 }
 
 .hero--btns .btn {
-  margin: 6px;
+  margin: 7px;
 }
 
 .fa-play-circle {
-  margin-left: 4px;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 960px) {
   .hero--container > h1 {
-    font-size: 70px;
+    font-size: 72px;
     margin-top: -150px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .hero--container > h1 {
-    font-size: 50px;
+    font-size: 52px;
     margin-top: -100px;
   }
 
   .hero--container > p {
-    font-size: 30px;
+    font-size: 32px;
   }
 
   .btn--mobile {
