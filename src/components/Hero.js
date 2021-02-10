@@ -1,5 +1,5 @@
 import { Button } from "./Button";
-import Video from "../videos/video-1.mp4";
+// import Video from "../videos/video-1.mp4";
 import "../App.css";
 import "./Hero.css";
 
@@ -8,7 +8,13 @@ function Hero() {
   return (
     <div className="hero--container">
       {/* Video plays continuously */}
-      <video src={Video} autoPlay loop muted />
+      <video
+        src={process.env.PUBLIC_URL + "/videos/video-1.mp4"}
+        autoPlay
+        loop
+        muted
+      />
+      {/* <video src={Video} autoPlay loop muted /> */}
       <h1>DESTINY IS CALLING</h1>
       <p>What are you waiting for?</p>
       <div className="hero--btns">

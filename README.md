@@ -1,7 +1,8 @@
 # Traveler
 
-[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![license-badge](https://img.shields.io/badge/License-MIT-red.svg)](https://shields.io/)
+
+[Deployed app](https://main.dbxcm1alzg08c.amplifyapp.com)
 
 ## Description
 
