@@ -6,7 +6,7 @@
 
 ## Description
 
-This website aims to solve all of your travel booking needs.
+This website aims to solve all of your travel booking needs. It is built using React and is deployed on AWS.
 
 ## Table of Contents
 
