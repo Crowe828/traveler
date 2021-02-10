@@ -8,6 +8,7 @@ function Hero() {
   return (
     <div className="hero--container">
       {/* Video plays continuously */}
+      
       <video
         src={process.env.PUBLIC_URL + "/videos/video-1.mp4"}
         autoPlay
